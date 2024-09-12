@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: api-demo-001
+  description: RESTful API test
+spec:
+  type: openapi
+  lifecycle: production
+  owner: borixcr
+  system: BKSTG-DEMO
+  definition: |
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: Topics API
+      license:
+        name: MIT
+    servers:
+      - url: http://localhost:8080/v1
+    paths:
+      /topics:
+        get:
+          summary: List all topics
+    
