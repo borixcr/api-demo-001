@@ -8,6 +8,8 @@ spec:
   lifecycle: production
   owner: borixcr
   system: BKSTG-DEMO
+  consumedBy:
+    - component: demo-service-001  
   definition: |
     openapi: "3.0.0"
     info:
