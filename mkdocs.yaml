@@ -1,0 +1,11 @@
+site_name: Topics API
+site_description: Topics sample application
+site_author: borixcr
+site_url: https://localhost:8080/api
+repo_url: https://github.com/borixcr/api-demo-001
+edit_uri: edit/main/docs
+plugins: 
+  - techdocs-core
+nav:
+  - Home: index.md
+  - Management: managing.md   
